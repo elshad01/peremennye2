@@ -27,12 +27,12 @@ public class Main {
     float y= 27.12f;
     double  u= 2.786;
 
-        System.out.println(e);
-        System.out.println(f);
-        System.out.println(h);
-        System.out.println(j);
-        System.out.println(y);
-        System.out.println(u);
+    System.out.println(e);
+    System.out.println(f);
+    System.out.println(h);
+    System.out.println(j);
+    System.out.println(y);
+    System.out.println(u);
 
     int clas1=23;
     int clas2=27;
@@ -41,7 +41,7 @@ public class Main {
     int totalPeple= clas1+clas2+clas3;
     int totalPerLeaf=totalLeaf/totalPeple;
 
-        System.out.println("На каждого учника расчитано: "+ totalPerLeaf +" листов бумаги" );
+    System.out.println("На каждого учника расчитано: "+ totalPerLeaf +" листов бумаги" );
 
 
     int oneMinute=16;
@@ -50,10 +50,10 @@ public class Main {
     int threeDay=oneDay* 3;
     int oneMonth=oneDay * 30;
 
-        System.out.println("За 20 минут  " + " машина произвела " + twentyMinute +" бутылок" );
-        System.out.println("За сутки "+ " машина произвела " + oneDay +" бутылок" );
-        System.out.println("За 3 дня "+ " машина произвела " + threeDay +" бутылок" );
-        System.out.println("За месяц "+ " машина произвела " + oneMonth +" бутылок" );
+    System.out.println("За 20 минут  " + " машина произвела " + twentyMinute +" бутылок" );
+    System.out.println("За сутки "+ " машина произвела " + oneDay +" бутылок" );
+    System.out.println("За 3 дня "+ " машина произвела " + threeDay +" бутылок" );
+    System.out.println("За месяц "+ " машина произвела " + oneMonth +" бутылок" );
 
     int whiteCans= 2;
     int brownCans= 4;
@@ -62,7 +62,7 @@ public class Main {
     int totalWhiteCans=totalClass  * whiteCans;
     int totalBrownCans=totalClass  * brownCans;
 
-        System.out.println("В школе где  "+totalClass+ " классов нужно "+ totalWhiteCans +" банок белой краски " + totalBrownCans+ " банок коричневой краски"  );
+    System.out.println("В школе где  "+totalClass+ " классов нужно "+ totalWhiteCans +" банок белой краски " + totalBrownCans+ " банок коричневой краски"  );
 
     int bananaCount=5;
     int bananaWeight=80;
@@ -75,7 +75,7 @@ public class Main {
     int totslWeight=eegsTotslWeight+bananasWeight+milkWeight+iceCreamWeight;
     double totalWeightkg= totslWeight/1000.0;
 
-        System.out.println("Общий вес завтрака:" + totslWeight+ " вес в килограммах: "+ totalWeightkg);
+    System.out.println("Общий вес завтрака:" + totslWeight+ " вес в килограммах: "+ totalWeightkg);
 
     int weihht= 7;
     double weightLose1= 0.25;
@@ -84,9 +84,9 @@ public class Main {
     int dayPerLose2=(int)Math.ceil (weihht/weightLose2);
     int averegeDays= (dayPerLose+dayPerLose2)/ 2;
 
-        System.out.println("теряем в день " +weightLose1+ " нужно дней "+ dayPerLose);
-        System.out.println("теряем в день " +weightLose2+ " нужно дней "+ dayPerLose2);
-        System.out.println("среднее количество дней "+ averegeDays);
+    System.out.println("теряем в день " +weightLose1+ " нужно дней "+ dayPerLose);
+    System.out.println("теряем в день " +weightLose2+ " нужно дней "+ dayPerLose2);
+    System.out.println("среднее количество дней "+ averegeDays);
 
     int mashaSaLari=67760;
     int denisSaLari=83690;
@@ -110,9 +110,9 @@ public class Main {
 
 
 
-        System.out.println(" Теперь маша получает "+ mashaNewSaLari +" разница составила " + mashadifferenceSalari);
-        System.out.println(" Теперь денис получает "+ denisNewSaLari +" разница составила " + denisdifferenceSalari);
-        System.out.println(" Теперь кристина получает "+ kristinaNewSaLari +" разница составила " + kristinadifferenceSalari);
+    System.out.println(" Теперь маша получает "+ mashaNewSaLari +" разница составила " + mashadifferenceSalari);
+    System.out.println(" Теперь денис получает "+ denisNewSaLari +" разница составила " + denisdifferenceSalari);
+    System.out.println(" Теперь кристина получает "+ kristinaNewSaLari +" разница составила " + kristinadifferenceSalari);
 
 
 
